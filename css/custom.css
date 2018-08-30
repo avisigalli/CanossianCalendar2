@@ -1,0 +1,56 @@
+.container{
+             display:flex;
+             justify-content:flex-start;
+             flex-wrap:wrap;
+             align-items:flex-start;
+             justify-content: space-around;
+             align-items: center;
+			 justify-content: center;
+             text-align: center;
+             position: relative;
+         }
+.item{
+             width:30%;
+             min-height:5em;
+             border:1px solid lightgrey;
+             font-family:Arial, Helvetica, 'Sans serif';
+             font-size:0.9em;
+             margin-top:0.5em;
+             
+         }
+.item-big{
+             width:60%;
+             min-height:5em;
+             border:1px solid lightgrey;
+             font-family:Arial, Helvetica, 'Sans serif';
+             font-size:0.9em;
+             margin-top:0.5em;
+             
+         }
+.box{
+			width:95%;
+			min-height:30em;
+			font-size:0.8em;
+			text-align:left;
+}
+.box h3{
+			text-align:center;
+}
+a, a:hover, a:visited {
+            text-decoration: none;
+            color: black;
+}
+
+.destra{
+         text-align: right;
+}
+.bordo{
+        width:95%;
+        min-height:3em;
+        border: 1px solid lightblue;
+        padding:1px;
+        display: none;
+}
+.bibbia{
+    color:darkred;
+}
